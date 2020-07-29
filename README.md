@@ -1,6 +1,6 @@
 # 2PLAY
 
-a full stack web application that "makes a mixtape" for you and your co-pilot. Created using CSS, HTML, JAVASCRIPT, jQuery, NPM, Node, Ajax/JSON, MySQL, Bootstrap 4, Handlebars, and APIs. 
+A full stack web application that "makes a mixtape" for you and your co-pilot. Created using CSS, HTML, JAVASCRIPT, jQuery, NPM, Node, Ajax/JSON, MySQL, Bootstrap 4, Handlebars, and APIs. 
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ a full stack web application that "makes a mixtape" for you and your co-pilot. C
 
 ## Installation
 
-Deployed application: https://dashboard.heroku.com/apps/project2x4
+Deployed application: https://project2x4.herokuapp.com/
 
 ## About
 
