@@ -16,8 +16,7 @@ $(document).ready(() => {
     // Clears results div each time a search is executed
     $('.results').html('');
 
-    const baseURL = 'http://localhost:8080';
-    const queryURL = `${baseURL}/api/search/${trackTitle}/${artistName}`;
+    const queryURL = `/api/search/${trackTitle}/${artistName}`;
 
     $.ajax({
       // Making an ajax call to our backend (search-routes.js)
