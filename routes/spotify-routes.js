@@ -84,26 +84,6 @@ module.exports = function (app) {
             refresh_token = body.refresh_token;
           res.cookie('spotifyAccessToken', body.access_token);
 
-          // var options = {
-          //   url: "https://api.spotify.com/v1/me",
-          //   headers: { Authorization: "Bearer " + access_token },
-          //   json: true,
-          // };
-
-          // // use the access token to access the Spotify Web API
-          // request.get(options, function (error, response, body) {
-          //   console.log(body);
-          // });
-
-          // // we can also pass the token to the browser to make requests from there
-          // res.redirect(
-          //   "/#" +
-          //   querystring.stringify({
-          //     access_token: access_token,
-          //     refresh_token: refresh_token,
-          //   })
-
-          // );
           res.redirect('/rooms');
         } else {
           res.redirect(
@@ -115,7 +95,6 @@ module.exports = function (app) {
         }
       });
     }
-    // res.cookie(spotifyAccessToken, body.access_token);
   });
 
   app.get('/refresh_token', function (req, res) {
