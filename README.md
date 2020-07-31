@@ -13,7 +13,7 @@ A full stack web application that "makes a mixtape" for you and your co-pilot. C
 
 ## Installation
 
-Deployed application: https://go-2play.herokuapp.com/
+Deployed application: https://app-2play.herokuapp.com/
 
 ## About
 
